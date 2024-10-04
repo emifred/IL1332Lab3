@@ -1,4 +1,4 @@
-module demux4to1_module
+module demux4to1_slice
                 (   input  logic a,
                     input  logic [1:0] s,
                     output logic out0,
