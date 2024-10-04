@@ -1,9 +1,9 @@
 module mux4to1_module
                 (   input  logic a,
                     input  logic [1:0] s,
-                    output logic out0
-                    output logic out1
-                    output logic out2
+                    output logic out0,
+                    output logic out1,
+                    output logic out2,
                     output logic out3
                 );
 
