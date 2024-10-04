@@ -9,7 +9,7 @@ module tb_demux4to1_N_bit;
     logic [N-1:0] z0, z1, z2, z3; // Outputs from the demux
 
     // Instantiate the demux
-    demux4to1_N_bit #(.N(N)) uut (
+    demux4to1_N_bit #(N) uut (
         .a(a),
         .s(s),
         .z0(z0),
