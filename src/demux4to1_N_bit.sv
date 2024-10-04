@@ -15,7 +15,7 @@ module demux4to1_N_bit #(parameter N=8)  // Parameterized for N-bit data
             logic mux_out0, mux_out1, mux_out2, mux_out3;
 
             // Instantiate the mux for each bit
-            mux4to1_slice mux_instance (
+            demux4to1_slice mux_instance (
                 .a(a[i]),                  // Connect single bit input
                 .s(s),                     // Select lines
                 .out0(mux_out0),          // Output for first
