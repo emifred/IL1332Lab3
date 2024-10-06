@@ -5,5 +5,4 @@ module alu(
     input logic[1:0]s,
     output logic[15:0]z
 );
-
 endmodule
